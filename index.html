@@ -33,7 +33,7 @@
     </label>
 
     <label for="input-cidade">Cidade:
-      <input name="cidade" id="input-cidade" maxlength="28" placeholder="digite seu endereço"></input>
+      <input name="cidade" id="input-cidade" maxlength="28" placeholder="digite sua cidade"></input>
     </label>
 
     <label for="input-estados">
@@ -56,17 +56,17 @@
   </fieldset>
   <br>
   <fieldset class="primeiro-quadro">
-    <legend>Esperiências</legend>
+    <legend>Experiências</legend>
     <p>Resumo do Currículo:</p>
     <textarea name="resumo-currilo" id="input-resumo-currilo" cols="30" rows="10" maxlength="1000" required placeholder="digite aqui o resumo do seu curriculo"></textarea>
     <br>
     <label for="input-cargo">Cargo:
-      <input type="text" name="cargo" id="input-cargo" maxlength="40" placeholder="digite o cargo" required>
+      <input type="text" name="cargo" id="input-cargo" maxlength="40" placeholder="digite o cargo" placeholder="Cargo" required>
     </label>
 
     <p>Atividades do Cargo:</p>
     <label for="input-descricao-cargo">
-      <textarea name="descricao-cargo" id="input-descricao-cargo" maxlength="500" cols="30" rows="5" required></textarea>
+      <textarea name="descricao-cargo" id="input-descricao-cargo" maxlength="500" cols="30" rows="5" placeholder="atividade do cargo" required></textarea>
     </label>
 
     <br>
@@ -80,8 +80,8 @@
   </fieldset>
   <br>
   <div>
-      <button type="submit" id="botao-enviar">Enviar</button>
-      <button type="reset" id="botao-limpar">Limpar</button>
+      <button class="botao" type="submit" id="botao-enviar">Enviar</button>
+      <button class="botao" type="reset" id="botao-limpar">Limpar</button>
   </div>
   <div class="dados-inputs novo"></div>
   <script src="script.js"></script>
